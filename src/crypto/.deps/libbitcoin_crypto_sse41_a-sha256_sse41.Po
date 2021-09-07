@@ -1,0 +1,284 @@
+crypto/libbitcoin_crypto_sse41_a-sha256_sse41.o: crypto/sha256_sse41.cpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/immintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/stdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/cstdlib \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/bits/std_abs.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsaveintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsaveoptintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsavesintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsavecintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512erintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512pfintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx5124fmapsintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx5124vnniwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vpopcntdqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmi2intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmi2vlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vnniintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vnnivlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vpopcntdqvlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512bitalgintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xtestintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/cetintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/gfniintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/vaesintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/vpclmulqdqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/movdirintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/sgxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pconfigintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/waitpkgintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/cldemoteintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/rdseedintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/prfchwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/adxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/clwbintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/clflushoptintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/wbnoinvdintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pkuintrin.h \
+ crypto/common.h config/bitcoin-config.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h compat/endian.h \
+ compat/byteswap.h
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/corecrt.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/stdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/cstdlib:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/share/mingw-w64/include/corecrt_wstdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/c++/bits/std_abs.h:
+
+/usr/share/mingw-w64/include/errno.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/popcntintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsavesintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512fintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512erintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512pfintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vlbwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512ifmavlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmiintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx5124vnniwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vpopcntdqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmi2intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vnniintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vnnivlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512vpopcntdqvlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/bmiintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/fmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/f16cintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/xtestintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/cetintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/gfniintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/vaesintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/movdirintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pconfigintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/waitpkgintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/prfchwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/adxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/clwbintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/clflushoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/wbnoinvdintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix/include/pkuintrin.h:
+
+crypto/common.h:
+
+config/bitcoin-config.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+compat/endian.h:
+
+compat/byteswap.h:

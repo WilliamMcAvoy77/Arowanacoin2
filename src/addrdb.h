@@ -81,6 +81,7 @@ public:
 
 typedef std::map<CSubNet, CBanEntry> banmap_t;
 
+
 /** Access to the (IP) address database (peers.dat) */
 class CAddrDB
 {

@@ -4,21 +4,22 @@ Arowanacoin: Post-Quantum Security and CPU Mining Coin
 Home Page
 http://arowanacoin.org/
 
+Wallet
+https://github.com/WilliamMcAvoy77/Arowanacoin/releases/tag/v1.1.1
+
 Specification
-Name: Arowanacoin 
-Tick: ARWN 
-Website: http://arowanacoin.org/ 
-Brief intro: A CPU Mineable Cryptocurrency based on one of NIST's Post-Quantum Security Standards (Falcon). 
-Consensus: POW 
-POW Algo: Yespower-ARWN 
-Sign Algo: Falcon 
-Launch Date: June, 2021 
-Total Supply: 2,831,348,000 
-HalvingInterval: 210000 
-Block Time: 1.5 minutes 
-Confirmation: 100 blocks 
-Network Port: 12631 
-RPC Port: 12632 
+Name: Arowanacoin
+Tick: ARWN
+Consensus: POW
+POW Algo: Yespower-ARWN
+Sign Algo: Falcon
+Launch Date: June, 2021
+Total Supply: 2,831,348,000
+HalvingInterval: 210000
+Block Time: 1.5 minutes
+Confirmation: 100 blocks
+Network Port: 10631
+RPC Port: 10632
 9.9% reserved by team for the network, listing & ecosystem.
 
 Falcon
@@ -52,14 +53,8 @@ B. Pool mining
 FOLLOWING THE INSTRUCTIONS OF POOLS
 Coming soon
 
-Whitepaper: https://github.com/WilliamMcAvoy77/whitepaper/blob/main/whitepaper-v1.pptx 
-Github: https://github.com/WilliamMcAvoy77/Arowanacoin2 
-Discord: https://discord.gg/ZFafwy9T9f 
-Reddit: https://www.reddit.com/user/WilliamMcAvoy77 
-Twitter: https://twitter.com/OwenWil56424916 
-Bitcointalk: https://bitcointalk.org/index.php?topic=5343550.msg57222127#msg57222127 
-Miningpoolstats: https://miningpoolstats.stream/arowanacoin 
-Altmarkets.io: https://v2.altmarkets.io/ 
+Whitepaper
+http://arowanacoin.org/arwn/whitepaper-1.0.pdf
 
 Store of value
 You can exchange and store value

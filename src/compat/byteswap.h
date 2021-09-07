@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2014-2018 The Arowanacoin Core developers
+﻿// Copyright (c) 2014-2021 The Arowanacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,17 +17,13 @@
 
 #if defined(MAC_OSX)
 
-#if !defined(bswap_16)
 
-// Mac OS X / Darwin features; we include a check for bswap_16 because if it is already defined, protobuf has
-// defined these macros for us already; if it isn't, we do it ourselves. In either case, we get the exact same
-// result regardless which path was taken
 #include <libkern/OSByteOrder.h>
 #define bswap_16(x) OSSwapInt16(x)
 #define bswap_32(x) OSSwapInt32(x)
 #define bswap_64(x) OSSwapInt64(x)
 
-#endif // !defined(bswap_16)
+
 
 #else
 // Non-Mac OS X / non-Darwin

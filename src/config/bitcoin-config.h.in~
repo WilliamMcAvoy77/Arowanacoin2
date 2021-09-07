@@ -207,6 +207,9 @@
    sys/random.h */
 #undef HAVE_GETENTROPY_RAND
 
+/* Define this symbol if gmtime_r is available */
+#undef HAVE_GMTIME_R
+
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
 
