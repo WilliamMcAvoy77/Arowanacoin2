@@ -1,5 +1,6 @@
 # Arowanacoin
 Arowanacoin: Post-Quantum Security and CPU Mining Coin
+![avatar](http://arowanacoin.org/assets/img/logo.png)
 
 ## Home Page
 http://arowanacoin.org/
