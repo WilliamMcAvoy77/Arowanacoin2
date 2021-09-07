@@ -7,6 +7,11 @@ http://arowanacoin.org/
 Wallet
 https://github.com/WilliamMcAvoy77/Arowanacoin2
 
+Donation Addresses
+ARWN: aw1qgy2w90ect8gprlxl6f8ylpf2hf322zktfghnq4
+RVN: RVXJSHhRmV8jDWV3JWP2MYSWeLfMD6mm5c
+DGB: D8hvwfkHVvPh9ihLTdYEfrS94gBzmeF4gk
+
 Specification
 Name: Arowanacoin
 Tick: ARWN
