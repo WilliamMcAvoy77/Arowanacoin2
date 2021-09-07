@@ -5,7 +5,7 @@ Home Page
 http://arowanacoin.org/
 
 Wallet
-https://github.com/WilliamMcAvoy77/Arowanacoin/releases/tag/v1.1.1
+https://github.com/WilliamMcAvoy77/Arowanacoin2
 
 Specification
 Name: Arowanacoin
