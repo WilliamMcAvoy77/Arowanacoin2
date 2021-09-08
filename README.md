@@ -16,6 +16,9 @@ DGB: D8hvwfkHVvPh9ihLTdYEfrS94gBzmeF4gk
 ## Discord
 https://discord.gg/ZFafwy9T9f  
 
+## Twitter
+https://twitter.com/OwenWil56424916  
+
 ## Specification
 Name: Arowanacoin  
 Tick: ARWN  
